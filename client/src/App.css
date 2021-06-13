@@ -1,0 +1,78 @@
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing:
+    border-box;
+}
+
+.App {
+    height: 100%;
+}
+.list-channel {
+    position: absolute;
+    top:0; bottom: 0; left:0;
+    width: 20%;
+    background-color: rgb(41, 174, 192);
+    padding: 20px;
+}
+
+.list-members {
+    position: absolute;
+    top:0; bottom: 0; right:0;
+    width: 20%;
+    background-color: rgb(41, 174, 192);
+}
+
+.list-messages {
+    position: absolute;
+    top:0; bottom: 0; left: 20%; right: 20%;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+
+.messages, .members {
+    padding: 20px;
+}
+
+.sendMessage {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    border-top: 1px solid #000;
+    background-color: #d9d9d9;
+}
+
+#msg {
+    width: 90%;
+}
+
+.sendForm button {
+    width: 10%;
+}
+
+.username {
+    width: 100%;
+    border-bottom: 1px solid #000;
+    padding: 10px;
+}
+
+.label {
+    margin-right: 5px;
+}
+
+.msg, .chan, .users {
+    display: block;
+    padding: 2px;
+    padding-left: 10px;
+}
+
+.msg:nth-child(2n+1), .chan:nth-child(2n+1) {
+    background-color: #d9d9d9;
+}
+
+.chan:hover {
+    color: crimson;
+    cursor: pointer;
+}
